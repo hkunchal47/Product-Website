@@ -1,6 +1,7 @@
 {
   "name": "product-saas-website",
   "version": "0.1.0",
+ "homepage": "https://hkunchal.github.io/Product-Website",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
@@ -15,6 +16,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "TAILWIND_MODE=watch craco start",
     "build": "craco build",
     "test": "craco test",
@@ -40,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^6.1.1",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
