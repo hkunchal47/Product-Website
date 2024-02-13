@@ -1,7 +1,7 @@
 {
   "name": "product-saas-website",
   "version": "0.1.0",
- "homepage": "https://hkunchal.github.io/Product-Website",
+  "homepage": "https://hkunchal.github.io/Product-Website",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
