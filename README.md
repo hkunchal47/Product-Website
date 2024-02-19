@@ -3,4 +3,7 @@
 
 ### Click Here For Live Demo:- https://hkunchal47.github.io/Product-Website/
 
+### Fameworks Used:- ReactsJs and Tailwind
+   
+
 ## Thanks for Checking out 😊
